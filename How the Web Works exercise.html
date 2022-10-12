@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How the web works</title>
+</head>
+<body>
+What is HTTP?
+Hyper text transfer protocol; gets and posts requests to server
+
+What is a URL?
+Uniform resource locator; an address for a website
+
+What is DNS?
+Domain Name System, takes URL and puts it into IP address for server
+
+What is a query string?
+Lets you put key and value pairs into url
+
+What are two HTTP verbs and how are they different?
+Get-retrieves data
+Post-modifies data
+
+What is an HTTP request?
+Request from client to server
+
+What is an HTTP response?
+A response to request from server to client
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Provides info about the request or resonse. Examples include host, cookie, content type
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+The server converts url to ip with domain name system. The browsers sends a request through server to ip. The server responds with a code indicating what happened. 
+The browser creates a DOM and integrates any code linked to html by making other requests to server and pulls responses.
+
+$ curl -v  icanhazdadjoke.com 
+
+Sift through HTML to find input box, type in 'pirate'
+
+$ dig -v  icanhazdadjoke.com 
+
+IP Address will populate
+
+</body>
+</html>
